@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <title>Payment Portal</title>
+      </head>
+      <Body>
+            <form action="">
+                  <h1><b>User Details</b></h1>
+                  
+            <p>Name: *
+             <input type="text" name="name" required>
+            </p>
+             <p>
+            <fieldset><legend>Gender</legend>
+                 Male <input type="radio" name="Gender" id="M">
+                 Female<input type="radio" name="Gender" id="F">
+             </fieldset>
+             </p> 
+            
+             <p>
+                  Address: <textarea name="Addrs" id="Addrs" cols="100" rows="5"> </textarea>
+             </p>
+        
+             <p>
+                  Email Id: <input type="email" name="Mail" id="Mail">
+             </p>
+            <p>
+                  Pincode: <input type="number" name="Pin" id="Pin">
+            </p>
+
+            <hr><hr>
+            <h1><b>Payment Details</b></h1>
+            <p>
+                  Card: *
+                  <select name="Card" id="Card">
+                        <option value="">Select a Card</option>
+                        <option value="Crdt">Credit Card</option>
+                        <option value="Debt">Debit Card</option>
+                        <option value="Mstr">Master Card</option>
+                        required  </select>
+            </p>
+            <p>
+                  Card No.:
+                  <input type="number" name="Card_num" id="Card_num" required>
+            </p>
+            <p>
+                  Card expiry: <input type="date" name="exp_info" id="exp_info" required>
+            </p>
+            <p>
+                  CVV: *<input type="password" name="Pass" id="Pass" required> 
+            </p>
+             <input type="submit" value="Pay Now!">
+
+
+
+
+            </form>
+      </Body>
+</html>
